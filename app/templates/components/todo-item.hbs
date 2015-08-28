@@ -1,0 +1,5 @@
+<li class="{{if todo.isCompleted 'completed'}}">
+  {{input type="checkbox" checked=todo.isCompleted class="toggle"}}
+  <label>{{todo.title}}</label>
+  <button type="button" name="button" class="destroy"></button>
+</li>
