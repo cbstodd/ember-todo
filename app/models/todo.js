@@ -3,6 +3,7 @@ import DS from 'ember-data';
 export default DS.Model.extend({
   title: DS.attr('string'),       // Sets title to a string variable
   isCompleted: DS.attr('boolean') // Sets isCompleted to true or false
+   
 
 }).reopenClass({
   FIXTURES: [
